@@ -2,12 +2,13 @@
 
 Reports and analyses developed for the **Business Statistics** course at **Sapienza University of Rome**, focused on Generalized Linear Models (GLMs) applied to real-world business and social-science data.
 
-Each report combines technical rigor with clear communication, with particular attention to visualizations that support the interpretation of results. Originally written in Italian (`italian/` folder) and translated into English for this repository.
+Each report combines technical rigor with clear communication, with particular attention to visualizations that support the interpretation of results. Originally written in Italian (`original/` folder) and translated into English for this repository.
 
 ## Contents
 
 - [Project 1 — Logistic Regression: Political Self-Placement](#project-1--logistic-regression-political-self-placement)
 - [Project 2 — Linear Regression: Income, Politics & Happiness](#project-2--linear-regression-income-politics--happiness)
+- [Project 3 — Multiple Regression: The Gender Pay Gap](#project-3--multiple-regression-the-gender-pay-gap)
 
 ---
 
@@ -46,11 +47,12 @@ This project asks whether income drives differences in happiness levels across f
 📄 [`poor-always-fare-worse.md`](./poor-always-fare-worse.md) — full write-up with figures and regression formulas
 
 ---
+
 ## Project 3 — Multiple Regression: The Gender Pay Gap
 
 **Data:** 1985 Current Population Survey (US)
 
-*"Женись стариком, никуда не годным... А то пропадет все, что в тебе есть хорошего и высокого"* — Leo Tolstoy, *War and Peace*
+> *"Женись стариком, никуда не годным... А то пропадет все, что в тебе есть хорошего и высокого"* — Leo Tolstoy, *War and Peace*
 
 This project investigates the gender pay gap and its relationship with marital status, using a sample of US workers. It builds up from simple regressions (on sex alone, then on marital status alone) to a fully controlled multiple regression model with an experience–education–ethnicity–occupation set of predictors, to see how much of the raw wage gap survives once other conditions are held equal.
 
@@ -72,8 +74,9 @@ This project investigates the gender pay gap and its relationship with marital s
 
 ```
 .
-├── original/                    # original reports (Italian)
-├── images/                     # figures used across all reports
-├── vote-logistic.md            # Project 1 (English)
-└── poor-always-fare-worse.md   # Project 2 (English)
+├── original/                     # original reports (Italian)
+├── images/                       # figures used across all reports
+├── vote-logistic.md              # Project 1 (English)
+├── poor-always-fare-worse.md     # Project 2 (English)
+└── gender-pay-gap.md             # Project 3 (English)
 ```
