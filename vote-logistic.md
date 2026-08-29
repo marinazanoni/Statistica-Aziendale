@@ -42,11 +42,13 @@ Pr\{y_i = 1 \mid X_i'\beta\} = \text{invlogit}\Bigg(
 \;\underset{(0.16)}{-0.09}\,\text{Asian}
 \;\underset{(0.11)}{-0.60}\,\text{African American}
 \;\underset{(0.10)}{-0.25}\,\text{Hispanic}
-\;\underset{(0.13)}{-0.31}\,\text{Other ethnicity} \\[4pt]
+\;\underset{(0.13)}{-0.31}\,\text{Other ethnicity}
+\\[4pt]
 &\underset{(0.05)}{+0.28}\,\text{Male}
 \;\underset{(0.08)}{+0.10}\,\text{rescale(income)}
 \;\underset{(0.15)}{-0.72}\,\text{Master's degree}
-\;\underset{(0.14)}{-0.09}\,\text{High school diploma} \\[4pt]
+\;\underset{(0.14)}{-0.09}\,\text{High school diploma}
+\\[4pt]
 &\underset{(0.15)}{-0.44}\,\text{Bachelor's degree}
 \;\underset{(0.07)}{+0.11}\,\text{Adults}
 \;\underset{(0.09)}{+0.18}\,\text{Seniors}
