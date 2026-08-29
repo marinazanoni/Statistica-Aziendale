@@ -46,12 +46,33 @@ This project asks whether income drives differences in happiness levels across f
 📄 [`poor-always-fare-worse.md`](./poor-always-fare-worse.md) — full write-up with figures and regression formulas
 
 ---
+## Project 3 — Multiple Regression: The Gender Pay Gap
+
+**Data:** 1985 Current Population Survey (US)
+
+*"Женись стариком, никуда не годным... А то пропадет все, что в тебе есть хорошего и высокого"* — Leo Tolstoy, *War and Peace*
+
+This project investigates the gender pay gap and its relationship with marital status, using a sample of US workers. It builds up from simple regressions (on sex alone, then on marital status alone) to a fully controlled multiple regression model with an experience–education–ethnicity–occupation set of predictors, to see how much of the raw wage gap survives once other conditions are held equal.
+
+**Key findings**
+- The raw gender pay gap is 21% (men $10/hour vs. women $7.90/hour on average), but the gap looks very different by marital status: only 1% among the unmarried, versus 29% among the married.
+- All else equal, the "true" gender pay gap is 10% among unmarried individuals and rises to 24% among married ones — married men are the best-paid group overall, while married women are the worst-paid.
+- Wages follow an inverted-U shape with experience, peaking around 29 years, and are also associated with education, ethnicity, region (South vs. North), and union membership.
+
+**Technical challenges**
+- Modeling experience with a quadratic term to capture the rise-then-plateau pattern of wages over a career.
+- Interpreting a gender × marital-status interaction term, which requires computing the "effect" of one variable while holding a level of the other fixed, rather than reading the coefficients in isolation.
+- Converting log-wage regression coefficients into interpretable "growth rates" (e^β − 1) for a model estimated on log(wage).
+
+📄 [`gender-pay-gap.md`](./gender-pay-gap.md) — full write-up with all figures and regression formulas
+
+---
 
 ## Repository structure
 
 ```
 .
-├── italian/                    # original reports (Italian)
+├── original/                    # original reports (Italian)
 ├── images/                     # figures used across all reports
 ├── vote-logistic.md            # Project 1 (English)
 └── poor-always-fare-worse.md   # Project 2 (English)
