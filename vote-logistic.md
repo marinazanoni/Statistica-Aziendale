@@ -34,40 +34,7 @@ The answer to whether ethnicity is a determining factor in voting preferences in
 **Figure 3:** Average income by ethnicity (panel a), political leaning by income (panel b), importance of religion by ethnicity (panel c), political leaning as importance of religion varies (panel d)
 
 ### Regression model
-
-$$
-\begin{aligned}
-Pr\{y_i = 1 \mid X_i'\beta\} = \text{invlogit}\Bigg(
-&\underset{(0.17)}{-0.36}
-\;\underset{(0.16)}{-0.09}\,\text{Asian}
-\;\underset{(0.11)}{-0.60}\,\text{African American}
-\;\underset{(0.10)}{-0.25}\,\text{Hispanic}
-\;\underset{(0.13)}{-0.31}\,\text{Other ethnicity}
-\;
-&\underset{(0.05)}{+0.28}\,\text{Male}
-\;\underset{(0.08)}{+0.10}\,\text{rescale(income)}
-\;\underset{(0.15)}{-0.72}\,\text{Master's degree}
-\;\underset{(0.14)}{-0.09}\,\text{High school diploma}
-\;
-&\underset{(0.15)}{-0.44}\,\text{Bachelor's degree}
-\;\underset{(0.07)}{+0.11}\,\text{Adults}
-\;\underset{(0.09)}{+0.18}\,\text{Seniors}
-\;\underset{(0.11)}{+0.34}\,\text{Elderly}
-\;\underset{(0.06)}{+0.17}\,\text{Married}
-\;
-&\underset{(0.06)}{+1.37}\,\text{rescale(religious importance)}
-\;\underset{(0.12)}{+0.23}\,\text{Middle class}
-\;\underset{(0.18)}{-0.27}\,\text{Upper class} \\[4pt]
-&\underset{(0.11)}{+0.22}\,\text{Working class}
-\;\underset{(0.32)}{-0.41}\,\text{Asian} : \text{rescale(income)} 
-\;
-&\underset{(0.20)}{-1.15}\,\text{African American} : \text{rescale(income)}
-\;\underset{(0.19)}{-0.32}\,\text{Hispanic} : \text{rescale(income)} 
-\;
-&\underset{(0.24)}{-0.31}\,\text{Other ethnicities} : \text{rescale(income)}
-\Bigg)
-\end{aligned}
-$$
+Pr{yi​=1∣Xi′​β}=invlogit((0.17)−0.36​(0.16)−0.09​Asian(0.11)−0.60​African American(0.10)−0.25​Hispanic(0.13)−0.31​Other ethnicity(0.05)+0.28​Male(0.08)+0.10​rescale(income)(0.15)−0.72​Master’s degree(0.14)−0.09​High school diploma(0.15)−0.44​Bachelor’s degree(0.07)+0.11​Adults(0.09)+0.18​Seniors(0.11)+0.34​Elderly(0.06)+0.17​Married(0.06)+1.37​rescale(religious importance)(0.12)+0.23​Middle class(0.18)−0.27​Upper class(0.11)+0.22​Working class(0.32)−0.41​Asian:rescale(income)(0.20)−1.15​African American:rescale(income)(0.19)−0.32​Hispanic:rescale(income)(0.24)−0.31​Other ethnicities:rescale(income))​
 
 As can be seen from the formula, the **baseline** individual is a Caucasian woman, of average income, with education no higher than lower secondary school, aged 35 or under, unmarried, who attaches average importance to religion, and belongs to the lowest social class. Her expected probability of identifying as right-leaning is estimated at **41%**.
 
