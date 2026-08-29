@@ -37,7 +37,7 @@ The answer to whether ethnicity is a determining factor in voting preferences in
 
 $$
 \begin{aligned}
-Pr\{y_i = 1 \mid X_i'\beta\} = \operatorname{invlogit}\Bigg(
+Pr\{y_i = 1 \mid X_i'\beta\} = \text{invlogit}\Bigg(
 &\underset{(0.17)}{-0.36}
 \;\underset{(0.16)}{-0.09}\,\text{Asian}
 \;\underset{(0.11)}{-0.60}\,\text{African American}
