@@ -19,4 +19,15 @@ Each report is crafted with the utmost attention to detail, combining **technica
    - **Rescaling continuous predictors** (income, religious importance) so that coefficients are comparable across variables with very different original scales.
    
   - 📄 [`vote-logistic.md`](./vote-logistic.md) — full write-up with all figures and the regression formula
-  - 🖼️ [`images/`](./images) — figures from the original analysis
+
+## Project 2: Linear
+
+  This project asks whether income drives differences in happiness levels across four European countries (France, Czech Republic, Hungary, Bulgaria), using data from the European Social Survey        (ESS), and how that relationship changes with a respondent's political orientation. Since the ESS is observational rather than experimental, the analysis is framed in terms of association         rather than causation.
+
+  Key findings: income has a positive effect on happiness everywhere, but that effect is strongest among far-left respondents and weakest among far-right ones; among the wealthy, political           orientation barely affects happiness, while among the poor conservatives report noticeably higher happiness than progressives. A second model finds a U-shaped relationship between age and          happiness, with a minimum (peak unhappiness) around age 46.
+
+  ### Technical challenges
+  - **Standardizing income and political orientation** so that main effects and their interaction term are on comparable scales and can be meaningfully combined.
+  - **Modeling age with a quadratic term** (age and age²) to capture the U-shaped, non-linear relationship between age and happiness reported in the literature, rather than assuming a constant        linear effect.
+
+  - 📄 [`poor-always-fare-worse.md`](./poor-always-fare-worse.md) — full write-up with figures and regression formulas
